@@ -1,0 +1,29 @@
+There are multiple documents being provided to you as dataset in document_set folder inside test packet.
+
+Your objective is to classify documents into a category.
+
+For example if two document are talking about same topic they are classified under same category.
+In the same manner a training data set is provided to you in the test packet under training_data folder which consists of a csv file with 2 columns 
+
+Document_ID , Label
+Document_0,     0
+Document_1,     0
+Document_2,     1
+
+Where same label for multiple documents mean they below to same category.
+
+You have to write a machine learning algorithm that learns how to classify documents into different categories 
+and predict the category for the documents list provided as csv file under "test_data" folder
+
+Your Submission should have to be inside "evaluation_file" folder in csv format with file name "predicted_cat.csv" , a sample version has been provided for your reference.
+
+Your solution will be evaluated with Metric ROC Area under curve for multiclass classification
+
+Steps for Submission of Solutions:
+
+1.Download the test packet zip file from here.
+2.Store you Machine Learning code inside the "code" folder
+3.Run your model on test data and store it under evaluation_file folder with "predicted_cat.csv" name
+4.Make sure your evaluation file has the same structure as the sample evaluation file provided
+5.Click on attach  file button in the editor to upload the zip file named ML_Solution which will contain two folders namely code and evaluation_file.
+(Note : Do not include any other folder as it will increase the size and will take time for upload to be succesful)
